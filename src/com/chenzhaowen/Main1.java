@@ -5,9 +5,11 @@ package com.chenzhaowen;
  */
 public class Main1 {
     public static void main(String[] args){
-        extendClass1 BasicTest = new extendClass1("xiaoming","student");
+        extendClass1 BasicTest = new extendClass1();
+        BasicTest.setName("xiaoming");
+        BasicTest.setWork("student");
         System.out.println("name:"+BasicTest.getName());
-        System.out.println("work:"+BasicTest.getWork());//由于getWork属性为protected，所以本行代码无法通过编译
+        //System.out.println("work:"+BasicTest.getWork());//由于getWork属性为protected，所以本行代码无法通过编译
         BasicTest.age();
         System.out.println("income:"+BasicTest.getIncome());
     }

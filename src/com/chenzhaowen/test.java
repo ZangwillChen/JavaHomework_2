@@ -30,7 +30,7 @@ public class test implements Test1{
         return work;
     }
 
-    protected void setWork(String work){
+    public void setWork(String work){
         this.work = work;
     }
 

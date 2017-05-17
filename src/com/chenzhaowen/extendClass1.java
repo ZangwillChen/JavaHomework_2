@@ -8,10 +8,7 @@ public class extendClass1 extends test {
     protected String work;
     private int income = 10000;
 
-    public extendClass1(String name,String work){
-        this.name = name;
-        this.work = work;
-    }
+
 
 
 }
